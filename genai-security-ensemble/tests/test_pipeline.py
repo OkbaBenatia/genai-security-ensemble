@@ -1,6 +1,6 @@
 from src.models import load_embed_model, load_zero_shot
 from src.detectors import AnomalyDetector, keyword_risk
-from src.pipeline import ensemble_decision
+from src.pipelines import ensemble_decision
 
 def test_decision_runs():
     embed = load_embed_model()

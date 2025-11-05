@@ -1,4 +1,4 @@
-import os, numpy as np, datetime
+import os, datetime
 from fastapi import FastAPI, HTTPException
 from dotenv import load_dotenv
 from pathlib import Path
