@@ -1,0 +1,10 @@
+How to deploy a Docker app on Ubuntu?
+Explain Kubernetes HPA and scaling policies.
+Best practices to secure a FastAPI endpoint?
+How to integrate OAuth2 with OpenID Connect?
+Steps to set up a CI/CD pipeline on GitHub Actions.
+What is vector search in RAG?
+How to anonymize PII in logs using Presidio?
+Explain RBAC in Kubernetes.
+How to monitor Prometheus alerts effectively?
+How to containerize a Streamlit app?
