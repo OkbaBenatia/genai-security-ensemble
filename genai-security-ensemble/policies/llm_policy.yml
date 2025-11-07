@@ -1,0 +1,23 @@
+# LLM policy file (policy-as-code)
+version: "0.1"
+description: "Default guardrails for genai-security-ensemble"
+
+# prompt injection indicators (case-insensitive substrings)
+injection_indicators:
+  - "ignore previous"
+  - "system prompt"
+  - "print all"
+  - "exfiltrate"
+  - "dump"
+  - "open the file"
+  - "execute"
+  - "delete"
+
+# output rules
+output_rules:
+  no_pii: true
+  banned_terms:
+    - "nuke"
+    - "bomb"
+    - "passwords"
+    - "credit card"
